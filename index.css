@@ -1,0 +1,18 @@
+body
+{
+  font-size:40pt;
+  /*margin: 0px;*/
+  background-color: #333333;
+  /*overflow: hidden;*/
+}
+
+canvas
+{
+	border: solid;
+	touch-action: none; /* Disable touch behaviors, like pan and zoom */
+}
+
+label
+{
+  color: #cccccc;
+}
