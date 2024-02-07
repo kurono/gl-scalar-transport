@@ -2,24 +2,31 @@
 <html>
   <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    	<link href="index.css" rel="stylesheet"/>
-	<script src="lib/RequestAnimationFrame.js"></script>
-	<script src="index.js"></script>
+    <link rel="stylesheet" href="css/index.css">
+	<!--
+	<script type="text/javascript" src="src/graphics/TextureBase.js"></script>
+	<script type="text/javascript" src="src/graphics/ImageRenderer.js"></script>
+	<script type="text/javascript" src="src/graphics/View.js"></script>
+	<script type="text/javascript" src="src/graphics/Shader.js"></script>
+	-->
+	<script type="text/javascript" src="src/geometry/MeshBase.js"></script>
+	<script type="text/javascript" src="src/geometry/QuadMesh.js"></script>
+	<script type="text/javascript" src="src/utils/Logger.js"></script>
+	<script type="text/javascript" src="src/graphics/Renderer.js"></script>
+	<script type="text/javascript" src="src/graphics/Texture.js"></script>
+	<script type="text/javascript" src="src/utils/Utils.js"></script>
+	<script type="text/javascript" src="src/Main.js"></script>
+	<script type="text/javascript" src="src/index.js"></script>
+	<title>Passive scalar transport in WebGL</title>
   </head>
-  <body>
-	<div>
-		<div>
-			<label id="debug">text</label>
-		</div>
+  <body onload="main();">
 		<div>
 			<canvas id="glcanvas" width="200" height="200"></canvas>
 			<canvas id="glcanvas2" width="200" height="200"></canvas>
 			<canvas id="tempcanvas" width="20" height="20"></canvas>
 		</div>
-	</div>
-	
-	<script>
-	  init();
-	</script>
+		<div class="footer1">
+			<textarea id="log-text" readonly>Log</textarea>
+		</div>
   </body>
 </html>
