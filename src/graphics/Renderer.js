@@ -7,7 +7,7 @@ class Renderer {
      * @param {HTMLCanvasElement} canvas 
      * @param {Object} options 
      */
-    constructor(canvas, options) {
+    constructor(canvas, options = null) {
         this.canvas = canvas;
         this.gl = null;
 

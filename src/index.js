@@ -7,5 +7,5 @@ let mainApp;
  * Application entry point called after <body onload="main();"> event
  */
 function main() {
-    mainApp = new Main("glcanvas");
+    mainApp = new Main("gl-canvas");
 }

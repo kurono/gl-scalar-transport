@@ -1,3 +1,6 @@
+/**
+ * A fullscreen quad mesh of two triangle faces sharing a diagonal
+ */
 class QuadMesh extends MeshBase {
     constructor(options = null) {
         // override the options dictionary
